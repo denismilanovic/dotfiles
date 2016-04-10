@@ -1,2 +1,5 @@
 *
 !.gitignore
+!user-dirs.dirs
+!profile.d
+!profile.d/*

@@ -1,5 +1,9 @@
 *
 !.gitignore
 !user-dirs.dirs
+!.profile
 !profile.d
 !profile.d/*
+!.zshrc
+!zshrc.d
+!zshrc.d/*

@@ -9,8 +9,5 @@ function source_profile()
 	done
 }
 
-# If not running interactively, don't do anything
-[[ $- != *i* ]] && return
-
 # Source from the zshrc.d directory
 source_profile ${XDG_CONFIG_HOME:-$HOME/.config}/profile.d

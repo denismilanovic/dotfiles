@@ -12,4 +12,5 @@ setopt autocd
 # Fancier globbing
 setopt extendedglob
 
-
+# Historical searching with Ctrl+R
+bindkey "^R" history-incremental-search-backward

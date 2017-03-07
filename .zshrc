@@ -1,6 +1,6 @@
 function source_zsh_scripts()
 {
-	for script in ${XDG_CONFIG_HOME:-$HOME/.config}/zshrc.d/*.zsh
+	for script in $1/*.zsh
 	do
 		# Execute permission enables scripts
 		[[ -x "${script}" ]] || continue
@@ -13,4 +13,4 @@ function source_zsh_scripts()
 [[ $- != *i* ]] && return
 
 # Source from the zshrc.d directory
-source_zsh_scripts $HOME/.config/zshrc.d
+source_zsh_scripts ${XDG_CONFIG_HOME:-$HOME/.config}/zshrc.d

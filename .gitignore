@@ -10,3 +10,4 @@
 !.bashrc
 !bashrc.d
 !bashrc.d/*
+!.tmux.conf

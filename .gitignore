@@ -7,3 +7,6 @@
 !.zshrc
 !zshrc.d
 !zshrc.d/*
+!.bashrc
+!.bashrc.d
+!.bashrc.d/*

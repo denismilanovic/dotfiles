@@ -1,2 +1,3 @@
 #!/bin/bash
-PS1='[\u@\h:\w] '
+export PS1='\$ '
+export PS2='... '

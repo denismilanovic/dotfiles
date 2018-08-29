@@ -8,9 +8,11 @@ set shiftwidth=4
 set autoindent
 set smartindent
 
-" Search ignores case
+" Search options
 set ignorecase
 set smartcase
+set incsearch
+set hlsearch
 
 " Disable arrow keys
 noremap <Up> <NOP>

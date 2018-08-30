@@ -13,4 +13,7 @@
 !bashrc.d
 !bashrc.d/*
 !.tmux.conf
-!.vimrc
+!.vim
+!.vim/plugin
+!.vim/plugin/vimrc
+!.vim/plugin/vimrc/*

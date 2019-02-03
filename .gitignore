@@ -1,7 +1,7 @@
 *
-!.gitconfig
+!git
+!git/*
 !.gitignore
-!.gitignore_global
 !user-dirs.dirs
 !.profile
 !profile.d

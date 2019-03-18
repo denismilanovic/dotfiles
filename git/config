@@ -1,6 +1,9 @@
 [user]
 	email = denis@milanovic.id.au
 	name = Denis Milanović
+	signingkey = E88AD6CA99409080
+[commit]
+	gpgsign = true
 [core]
 	editor = vim
 	autocrlf = input

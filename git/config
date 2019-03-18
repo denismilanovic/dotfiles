@@ -3,3 +3,4 @@
 	name = Denis Milanović
 [core]
 	editor = vim
+	autocrlf = input

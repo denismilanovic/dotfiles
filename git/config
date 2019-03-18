@@ -3,4 +3,3 @@
 	name = Denis Milanović
 [core]
 	editor = vim
-	excludesfile = /home/denis/.gitignore_global

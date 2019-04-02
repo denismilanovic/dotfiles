@@ -1,0 +1,12 @@
+[Unit]
+Description=Start tmux in detached session
+
+[Service]
+Environment=DISPLAY=:0
+Type=forking
+ExecStart=/usr/bin/tmux new-session -s %u@%H -d
+ExecStop=/usr/bin/tmux kill-session -t %u@%H
+Restart=always
+
+[Install]
+WantedBy=default.target

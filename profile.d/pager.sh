@@ -1,2 +1,2 @@
 export PAGER=/usr/bin/less
-export LESS="${LESS//[r]/}r"
+export LESS="${LESS//[RM]/}RM"

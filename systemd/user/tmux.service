@@ -1,5 +1,5 @@
 [Unit]
-Description=Start tmux in detached session
+Description=Terminal Multiplexer Session %u@%H
 
 [Service]
 Environment=DISPLAY=:0

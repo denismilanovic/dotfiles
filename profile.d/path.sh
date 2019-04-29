@@ -1,4 +1,4 @@
-add_path() {
+addpath() {
 	new_path=${1}
 	[ -d "${new_path}" ] && case ":$PATH:" in
 		*":${new_path}:"*) ;;
@@ -6,4 +6,5 @@ add_path() {
 	esac
 }
 
-add_path "${HOME}/bin"
+addpath "${HOME}/bin"
+unset addpath

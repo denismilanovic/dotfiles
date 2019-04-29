@@ -1,8 +1,4 @@
 #!/bin/bash
-
-for script in ${XDG_CONFIG_HOME:-$HOME/.config}/bashrc.d/*.bash
-do
-	# Execute permission enables scripts
-	[[ -x "${script}" ]] || continue
-	source ${script}
+for file in ${XDG_CONFIG_HOME:-$HOME/.config}/bashrc.d/*.bash; do
+	test -x $file && source $file;
 done

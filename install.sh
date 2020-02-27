@@ -6,8 +6,8 @@ function mklink()
 {
 	source=$1;
 	target=$2;
-	rm -rf $2;
-	ln -s "$1" "$2";
+	mv ${target}{,.bak}
+	ln -s ${target} ${source}
 }
 
 mklink ${config_dir}/ ${HOME}/.config

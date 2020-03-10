@@ -17,3 +17,4 @@ mklink ${config_dir}/profile ${HOME}/.profile
 mklink ${config_dir}/bash_profile ${HOME}/.bash_profile
 mklink ${config_dir}/tmux.conf ${HOME}/.tmux.conf
 mklink ${config_dir}/vim ${HOME}/.vim
+mklink ${config_dir}/lesskey ${HOME}/.lesskey

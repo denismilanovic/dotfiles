@@ -1,2 +1,3 @@
 XDG_CONFIG_HOME=$HOME/etc
-XDG_DATA_HOME=$HOME/local/share
+source ${XDG_CONFIG_HOME}/user-home.dirs
+source ${XDG_CONFIG_HOME}/user-dirs.dirs

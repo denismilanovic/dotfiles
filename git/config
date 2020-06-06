@@ -9,3 +9,5 @@
 	autocrlf = input
 [log]
 	date = iso
+[pull]
+	ff = only

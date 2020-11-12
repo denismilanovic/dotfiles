@@ -11,3 +11,5 @@
 	date = iso
 [pull]
 	ff = only
+[include]
+	path = ~/etc/git/local

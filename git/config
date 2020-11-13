@@ -11,5 +11,7 @@
 	date = iso
 [pull]
 	ff = only
+[advice]
+	addIgnoredFile = false
 [include]
 	path = ~/etc/git/local

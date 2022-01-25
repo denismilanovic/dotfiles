@@ -6,5 +6,5 @@ addpath() {
 	esac
 }
 
-addpath "${HOME}/bin"
+addpath "${HOME}/local/bin"
 unset addpath

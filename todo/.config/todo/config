@@ -1,5 +1,5 @@
 ### FILE LOCATIONS ###
-TODO_DIR=${HOME}/local/share/todo
+TODO_DIR=${HOME}/.local/share/todo
 TODO_ACTIONS_DIR=${TODO_DIR}/actions.d
 TODO_FILE="$TODO_DIR/todo.txt"
 DONE_FILE="$TODO_DIR/done.txt"

@@ -16,4 +16,4 @@
 [advice]
 	addIgnoredFile = false
 [include]
-	path = ~/etc/git/local
+	path = ~/.config/git/local

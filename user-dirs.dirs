@@ -5,12 +5,12 @@
 # homedir-relative path, or XDG_xxx_DIR="/yyy", where /yyy is an
 # absolute path. No other format is supported.
 # 
-XDG_DATA_DIR="$HOME/local/share"
-XDG_DESKTOP_DIR="$HOME/local/desktop"
+XDG_DATA_DIR="$HOME/.local/share"
+XDG_DESKTOP_DIR="$HOME/.local/desktop"
 XDG_DOCUMENTS_DIR="$HOME/docs"
-XDG_DOWNLOAD_DIR="$HOME/local/dl"
-XDG_MUSIC_DIR="$HOME/media/music"
-XDG_PICTURES_DIR="$HOME/media/pictures"
-XDG_PUBLICSHARE_DIR="$HOME/local/public"
-XDG_TEMPLATES_DIR="$HOME/local/templates"
-XDG_VIDEOS_DIR="$HOME/media/videos"
+XDG_DOWNLOAD_DIR="$HOME/tmp/dl"
+XDG_MUSIC_DIR="$HOME/.local/music"
+XDG_PICTURES_DIR="$HOME/.local/pictures"
+XDG_PUBLICSHARE_DIR="$HOME/.local/public"
+XDG_TEMPLATES_DIR="$HOME/.local/templates"
+XDG_VIDEOS_DIR="$HOME/.local/videos"

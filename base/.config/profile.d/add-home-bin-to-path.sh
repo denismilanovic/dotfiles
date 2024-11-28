@@ -1,10 +1,4 @@
-addpath() {
-	new_path=${1}
-	[ -d "${new_path}" ] && case ":$PATH:" in
-		*":${new_path}:"*) ;;
-		*) export PATH="${new_path}:${PATH}" ;;
-	esac
-}
-
-addpath "${HOME}/local/bin"
-unset addpath
+#!/bin/sh
+BIN_DIR="${HOME}/.local/bin"
+test -d "$BIN_DIR" && [[ ":$PATH:" != *":${BIN_DIR}:"* ]] && export PATH="${BIN_DIR}:$PATH"
+unset BIN_DIR

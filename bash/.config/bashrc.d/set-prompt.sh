@@ -1,3 +1,3 @@
 #!/bin/bash
-export PS1='↪ '
+test -z "$TMUX" && export PS1='➤ \w ➤ '
 export PS2='… '

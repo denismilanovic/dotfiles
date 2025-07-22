@@ -1,2 +1,4 @@
+#!/bin/sh
 export PAGER=/usr/bin/less
-export LESS="${LESS//[RM]/}RM"
+LESS=$(echo "${LESS}" | tr -d RM)
+export LESS="${LESS}RM"

@@ -11,6 +11,8 @@
 	defaultBranch = main
 [log]
 	date = iso
+[push]
+	autoSetupRemote = true
 [pull]
 	ff = only
 [advice]

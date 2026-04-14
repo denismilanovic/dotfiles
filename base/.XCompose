@@ -9,6 +9,7 @@ include "%L"
 # A backup of the previous file contents has been made.
 
 
+# Emoji and Symbols
 <Multi_key> <f> <u>                           : "🖕"
 <Multi_key> <c> <c> <c> <p>                   : "☭"	
 <Multi_key> <p> <o> <o>                       : "💩"
@@ -16,8 +17,24 @@ include "%L"
 <Multi_key> <backslash> <o> <slash>           : "🙌"
 <Multi_key> <less> <3>                        : "♥"
 <Multi_key> <colon> <apostrophe> <parenright> : "😂"
-<Multi_key> <s> <u> <m>                       : "∑"
+
+# Greek Letters
+<Multi_key> <a> <l> <p> <h> <a>               : "α"
+<Multi_key> <b> <e> <t> <a>                   : "β"
+<Multi_key> <g> <a> <m> <m> <a>               : "γ"
+<Multi_key> <G> <A> <M> <M> <A>               : "Γ"
 <Multi_key> <d> <e> <l> <t> <a>               : "δ"
 <Multi_key> <D> <E> <L> <T> <A>               : "Δ"
+<Multi_key> <l> <a> <m> <b> <d> <a>           : "λ"
+<Multi_key> <L> <A> <M> <B> <D> <A>           : "Λ"
+<Multi_key> <m> <u>                           : "μ"
+<Multi_key> <p> <i>                           : "π"
+<Multi_key> <P> <I>                           : "Π"
+
+# Mathematical Symbols
+<Multi_key> <s> <u> <m>                       : "∑"
 <Multi_key> <+> <->                           : "±"
 <Multi_key> <~> <=>                           : "≈"
+<Multi_key> <i> <n> <f>                       : "∞"
+<Multi_key> <s> <q> <r> <t>                   : "√"
+<Multi_key> <i> <n> <t>                       : "∫"

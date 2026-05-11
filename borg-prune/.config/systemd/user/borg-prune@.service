@@ -1,0 +1,8 @@
+[Unit]
+Description=Scheduled borg prune process for repo '%i'
+
+[Service]
+Type=oneshot
+EnvironmentFile=%h/.config/borg-prune/common.env
+EnvironmentFile=%h/.config/borg-prune/%i.env
+ExecStart=borg prune --keep-daily=${BORG_KEEP_DAILY} --keep-weekly=${BORG_KEEP_WEEKLY} --keep-monthly=${BORG_KEEP_MONTHLY} --keep-yearly=${BORG_KEEP_YEARLY} ${BORG_HOST}:${BORG_REPO}
